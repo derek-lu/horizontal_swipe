@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apps>
+	<app>
+		<title>Adobe Photoshop Touch</title>
+		<!-- Since the first app will be featured the thumbnail has larger dimensions, 263x368 -->
+		<thumbnailUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/thumbnails/photoshop.jpg</thumbnailUrl>
+		<!-- The URL to the app in the app store. -->
+		<appStoreUrl>http://itunes.apple.com/us/app/adobe-photoshop-touch/id495716481?mt=8</appStoreUrl>
+		<!-- The URL to the preview image that is displayed when a user taps the cover. Should be 567px wide and not taller than 3600px. -->
+		<previewImageUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/previews/photoshop.jpg</previewImageUrl>
+		<price>$9.99</price>
+	</app>
+	<app>
+		<title>Adobe Eazel for Photoshop</title>
+		<!-- The bottom row of the first page images should be, 111x148, images on subsequent pages should be 160x120 -->
+		<thumbnailUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/thumbnails/eazel.jpg</thumbnailUrl>
+		<!-- The URL to the app in the app store. -->
+		<appStoreUrl>http://itunes.apple.com/us/app/adobe-eazel-for-photoshop/id421302663?mt=8&amp;ls=1</appStoreUrl>
+		<!-- The URL to the preview image that is displayed when a user taps the cover. Should be 567px wide and not taller than 3600px. -->
+		<previewImageUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/previews/eazel.jpg</previewImageUrl>
+		<price>$2.99</price>
+	</app>
+	<app>
+		<title>Adobe Ideas</title>
+		<!-- The bottom row of the first page images should be, 111x148, images on subsequent pages should be 160x120 -->
+		<thumbnailUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/thumbnails/ideas.jpg</thumbnailUrl>
+		<!-- The URL to the app in the app store. -->
+		<appStoreUrl>http://itunes.apple.com/us/app/adobe-ideas-1-0-for-ipad/id364617858?mt=8</appStoreUrl>
+		<!-- The URL to the preview image that is displayed when a user taps the cover. Should be 567px wide and not taller than 3600px. -->
+		<previewImageUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/previews/ideas.jpg</previewImageUrl>
+		<price>$9.99</price>
+	</app>
+	<app>
+		<title>Adobe Nav for Photoshop</title>
+		<!-- The bottom row of the first page images should be, 111x148, images on subsequent pages should be 160x120 -->
+		<thumbnailUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/thumbnails/nav.jpg</thumbnailUrl>
+		<!-- The URL to the app in the app store. -->
+		<appStoreUrl>http://itunes.apple.com/us/app/adobe-nav-for-photoshop/id426614130?mt=8</appStoreUrl>
+		<!-- The URL to the preview image that is displayed when a user taps the cover. Should be 567px wide and not taller than 3600px. -->
+		<previewImageUrl>http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/previews/nav.jpg</previewImageUrl>
+		<price>$1.99</price>
+	</app>
+</apps>

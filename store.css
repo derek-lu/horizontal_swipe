@@ -1,0 +1,671 @@
+#header {
+	background-image:url("images/header.gif");
+	background-repeat: no-repeat;
+	width: 768px;
+	height: 221px;
+}
+
+#header #content {
+	float: right;
+}
+
+.loading {
+	margin-left: 25px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#banner {
+	background-repeat: no-repeat;
+	width: 376px;
+	height: 181px;
+}
+
+.magazineBanner {
+	background-image:url("images/banner_magazines.jpg");
+}
+
+.appsBanner {
+	background-image:url("images/banner_apps.jpg");
+}
+
+.specialsBanner {
+	background-image:url("images/banner_specials.jpg");
+}
+
+#tabs {
+	width: 324px;
+	height: 36px;
+	float: right;
+}
+
+#printSubscribersTapHere{
+	background-image:url("images/btn_print_subscribers.png");
+	background-repeat: no-repeat;
+	width: 218px;
+	height: 57px;
+	position: relative;
+	left: 378px;
+	top: -4px;
+	margin-top: 1px;
+}
+
+.purchaseState {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	margin: 0px 0px 0px 0px;
+	color: #16AEEC;
+	display: block;
+}
+
+#featuredFolio {
+	margin-left: 66px;
+	height: 435px;
+	margin-top: 45px;
+}
+
+#featuredFolio #tapCoversForContents {
+	background-image:url("images/tap_covers_left.png");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 322px;
+	top: 296px;
+}
+
+#featuredFolio img {
+	float: left;
+	margin-left: 30px;
+	-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+}
+
+#featuredFolio #subscribeText {
+	width: 290px;
+	display: inline-block;
+	padding-bottom: 15px;
+	position: relative;
+	left: 85px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+#featuredFolio #subscribeText em {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+#featuredFolio .issueNumber {
+	padding-top: 32px;
+	font-size: 40px;
+	padding-bottom: 10px;
+	position: relative;
+	left: 85px;
+	width: 80px;
+	line-height: 100%;
+	display: inline-block;
+}
+
+#featuredFolio #issueNumberMagazines {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+}
+
+#featuredFolio #issueNumberApps {
+	width: 290px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+}
+
+#featuredFolio #issueNumberSpecials {
+	width: 290px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+}
+
+#featuredFolio .buyButton {
+	top: -10px;
+	margin-left: 0px;
+}
+
+#featuredFolio .row {
+	white-space: nowrap;
+	width: 200px;
+	position: relative;
+	margin-left: 55px;
+	left: 30px;
+	display: inline-block;
+}
+
+#featuredFolio #nextArrow {
+	background-image:url("images/next_arrow.png");
+	background-repeat: no-repeat;
+	width: 58px;
+	height: 26px;
+	position: absolute;
+	z-index: 999;
+	left: 684px;
+	top: 385px;
+}
+
+#featuredFolio .row div {
+	display: inline-block;
+}
+
+.subscribeButton {
+	background-image:url("images/btn_subscribe.png");
+	background-repeat: no-repeat;
+	width: 101px;
+	height: 31px;
+	margin-right: 15px;
+}
+
+.buyButton {
+	color: #ffffff;
+	margin-left: 10px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.buyButton .black, .buyButton .blue, .buyButton .grey {
+	background-repeat: no-repeat;
+	width: 101px;
+	height: 31px;
+	padding-top: 5px;
+}
+
+.buyButton .black {
+	background-image:url("images/btn_buy_black.png");
+}
+
+.buyButton .blue {
+	background-image:url("images/btn_buy_blue.png");
+}
+
+.buyButton .grey {
+	background-image:url("images/btn_buy_grey.png");
+}
+
+.buyButton .price {
+	color: #7EC5EE;
+}
+
+.folioPageOne {
+	float: left;
+	padding: 0px 2px 22px 24px;
+	display: inline;
+	width: 220px;
+}
+
+.folioPageOne img {
+	float: left;
+	-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+}
+
+.folioPageOne #issueNumber {
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 0px 0px 0px 13px;
+	width: 90px;
+	height: 100px;
+	line-height: 120%;
+	position: relative;
+}
+
+.folioPageOne #issueNumber p {
+	position: absolute;
+	bottom: 0px;
+	vertical-align: bottom;
+	padding: 0px;
+	margin: 0px;
+}
+
+.folioPageOne .buyButton {
+	left: 114px;
+	bottom: 31px;
+}
+
+.folio {
+	float: left;
+	padding: 0px 0px 0px 46px;
+	display: inline;
+	width: 317px;
+	height: 210px;
+}
+
+.folio img {
+	float: left;
+	-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+}
+
+.folio #issueNumber {
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 0px 0px 0px 38px;
+	width: 50px;
+	height: 120px;
+	line-height: 120%;
+	position: relative;
+}
+
+.folio #issueNumber p {
+	position: absolute;
+	bottom: 0px;
+	vertical-align: bottom;
+	padding: 0px;
+	margin: 0px;
+}
+
+.folio .buyButton {
+	display: inline-block;
+	position: relative;
+	bottom: -10px;
+	left: 27px;
+}
+
+.folio .appTitle, .folioPageOne .appTitle {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 120%;
+}
+
+.folioPageOne .appTitle {
+	width: 100px;
+}
+
+.folio .appTitle {
+	width: 140px;
+}
+
+#thumbRow {
+	background-image:url("images/page_one_row_bg.png");
+	background-repeat: no-repeat;
+	width: 768px;
+	height: 200px;
+	padding-top: 25px;
+}
+
+.horizontalPageContainer {
+	width: 768px;
+	height: 685px;
+	overflow: hidden;
+}
+
+/* page width/height should match horizontalPageContainer. */
+.horizontalPageContainer #content .page, .horizontalPageContainer #content .page0 {
+	width: 768px;
+	height: 677px;
+	float: left;
+	padding: 0px;
+}
+
+.horizontalPageContainer #content .page {
+	background-image:url("images/page_bg.gif");
+	background-repeat: no-repeat;
+	width: 768px;
+	height: 637px;
+	float: left;
+	margin-top: 43px;
+}
+
+.page #tapCoversForContents {
+	background-image:url("images/tap_covers_left.png");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 964px;
+	top: 16px;
+}
+
+.contentPreview {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, .5);
+	width: 768px;
+	height: 960px;
+}
+
+.contentPreview #container {
+	margin: 55px 0px 0px 75px;
+	padding-top: 26px;
+	padding-left: 26px;
+	padding-right: 26px;
+	background-color: rgb(255, 255, 255);
+	width: 566px;
+	height: 769px;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, .7);
+}
+
+.contentPreview #previewImage {
+	text-align: center;
+	width: 567px;
+	height: 627px;
+}
+
+.contentPreview #close {
+	background-image:url("images/content_preview_close_icon.png");
+	background-repeat: no-repeat;
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	left: 680px;
+	top: 55px;
+}
+
+.contentPreview #previewThumb {
+	float: left;
+}
+
+.contentPreview #header {
+	background-image:url("images/content_preview_header.gif");
+	background-repeat: no-repeat;
+	width: 318px;
+	height: 65px;
+	position: relative;
+	left: 125px;
+}
+
+.contentPreview hr {
+	clear: both;
+	margin-top: 4px;
+	height: 2px;
+	background-color: #919191;
+	border: 0px;
+}
+
+.contentPreview #row {
+	white-space: nowrap;
+}
+
+.contentPreview #issueNumber {
+	display: block;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	text-align: center;
+	position: relative;
+	left: -32px;
+}
+
+/* Styles for VerticalScrollContainer. */
+.verticalScrollContainer {
+	overflow: hidden;
+}
+
+.verticalScrollContainer #scrollIndicator {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/* Styles for the subscription dialog. */
+.dialog {
+    position: absolute;
+    width: 330px;
+    padding: 10px 15px 20px;
+    z-index: 99;
+    background-color: #0A183B;
+    background-color: rgb(10, 24, 59, 0.5);
+    color: #FFFFFF;
+    font-family: "helvetica";
+    text-align: center;
+    border: 2px solid #DEE1E6;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    -webkit-transform: scale(0);
+    opacity: .92;
+    top: 300px;
+    left: 219px;
+}
+
+.dialog.pop{
+    -webkit-transform: scale(1.0);
+      -webkit-animation-name: pop;
+      -webkit-animation-duration: 300ms;
+      -webkit-animation-timing-function: ease-in-out
+}
+
+@-webkit-keyframes pop {
+  0%   { -webkit-transform: scale(0); }
+  70%  { -webkit-transform: scale(1.1); }
+  100% { -webkit-transform: scale(1.0); }
+}
+
+.dialog #title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align:left;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dialog #description {
+    font-size: 16px;
+    margin: 15px 0;
+    text-align:left;
+}
+
+.dialog button {
+    color: #fff;
+    width:110px;
+    height: 35px;
+    font-style: bold;
+    white-space: nowrap;
+    text-align: center;
+    font: bold 16px "Helvetica Neue", "Arial", "sans-serif";
+    letter-spacing: 0.05em;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #233854;
+    background: rgb(0,0,0,0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#969db0),to(#0A183B));
+    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255, .7);
+    padding: 0px;
+    margin: 0px 5px 0px 5px;
+    opacity: 1.0;
+	text-shadow: 0px 1px 0px rgb(0, 0, 0);
+}
+
+#subscribeDialog .subscribePurchaseButton {
+    background: url("images/subscribe_btn_bg.png") 0 -4px repeat-x;
+    padding: 5px;
+    margin: 12px 2px 4px 1px;
+    color:#000000;
+    font-weight:bold;
+    font-size:18px;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    opacity: 1.0;
+    display:block;
+    width: 315px;
+    height: 21px;
+}
+
+#subscribeDialog button {
+    color: #fff;
+    width:100%;
+    font: bold 16px/18px "Helvetica Neue", "Arial", "sans-serif";
+    letter-spacing: 0.05em;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #233854;
+    background: rgb(0,0,0,0.8);
+    background: -moz-linear-gradient(-90deg, #969db0, #0A183B);
+    background: -webkit-gradient(linear, left top, left bottom, from(#969db0),to(#0A183B));
+    -webkit-box-shadow: 0px 1px 1px rgba(255,255,255, .7);
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, .7);
+    padding: 8px 25px;
+    min-width: 100px;
+    margin: 5px 0px 0px 0px;
+    opacity: 1.0;
+}
+
+.modalBackground {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9;
+}
+
+.horizontalPageContainer #navStatus {
+	position:absolute;
+}
+
+#featuredFolio .downloadStatus {
+	background: rgba(0, 0, 0, .4);
+	width: 256px;
+	height: 18px;
+	position: absolute;
+	padding-left: 7px;
+	padding-top: 350px;
+	top: 45px;
+	left: 96px;
+}
+
+#featuredFolio .progressTrack {
+	background: url("images/progress_track_225.png") no-repeat;
+	width: 225px;
+	height: 9px;
+	float: left;
+}
+
+#featuredFolio .downloadStatusClose, #featuredFolio .downloadStatusRestart {
+	width: 31px;
+	height: 31px;
+	float: right;
+	position: relative;
+	left: 0px;
+	top: -11px;
+}
+
+.folioPageOne .downloadStatus {
+	background: rgba(0, 0, 0, .4);
+	width: 104px;
+	height: 19px;
+	position: absolute;
+	padding-left: 7px;
+	padding-top: 129px;
+	top: 505px;
+}
+
+.folioPageOne .progressTrack {
+	background: url("images/progress_track_73.png") no-repeat;
+	width: 73px;
+	height: 9px;
+	float: left;
+}
+
+.folioPageOne .downloadStatusClose, .folioPageOne .downloadStatusRestart {
+	width: 31px;
+	height: 31px;
+	float: right;
+	position: relative;
+	left: 0px;
+	top: -11px;
+}
+
+.folio .downloadStatus {
+	background: rgba(0, 0, 0, .4);
+	width: 113px;
+	height: 19px;
+	position: absolute;
+	padding-left: 7px;
+	padding-top: 141px;
+}
+
+.folio .progressTrack {
+	background: url("images/progress_track_73.png") no-repeat;
+	width: 73px;
+	height: 9px;
+	float: left;
+}
+
+.folio .downloadStatusClose, .folio .downloadStatusRestart {
+	width: 31px;
+	height: 31px;
+	float: right;
+	position: relative;
+	left: 0px;
+	top: -11px;
+}
+
+.progressBarLeft {
+	background: url("images/progress_bar_left.png") no-repeat;
+	width: 4px;
+	height: 10px;
+	float: left;
+}
+
+.progressBarMiddle {
+	background: url("images/progress_bar_middle.png");
+	height: 10px;
+	float: left;
+}
+
+.progressBarRight {
+	background: url("images/progress_bar_right.png") no-repeat;
+	width: 4px;
+	height: 10px;
+	float: left;
+}
+
+.downloadStatusClose {
+	width: 31px;
+	height: 31px;
+	background: url("images/button_close.png") no-repeat;
+}
+
+.downloadStatusRestart {
+	width: 31px;
+	height: 31px;
+	background: url("images/button_restart.png") no-repeat;
+}
+
+.debug {
+	width: 320px;
+	height: 300px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 99999;
+}

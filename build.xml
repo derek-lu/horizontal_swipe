@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="store" >
+	<target name="concat" >
+		<concat destfile="store.js">
+			<filelist dir="src" files="collection/MagazinesCollection.js, collection/AppsCollection.js, collection/SpecialsCollection.js, view/item/FolioItemPageOneView.js, view/item/FolioItemView.js, view/item/FolioMarqueeItemView.js, view/item/SpecialsFolioMarqueeItemView.js, view/item/AppsItemPageOneView.js, view/item/AppsItemView.js, view/section/MagazinesView.js, view/section/AppsView.js, view/section/SpecialsView.js, view/control/Tabs.js, view/control/ContentPreview.js, view/control/HorizontalPageContainer.js, view/control/SubscribeDialog.js, view/control/VerticalScrollContainer.js, view/AppView.js"/>
+		</concat>
+	</target>
+</project>
