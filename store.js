@@ -2990,13 +2990,13 @@ var ADOBE = ADOBE || {};
 
 ADOBE.AppView = Backbone.View.extend({
 	// Used by MagazinesCollection and SpecialsCollection. Returns the available folios from the fulfillment server.
-	FULFILLMENT_URL: "http://lighthouse.adobe.com/dps/v2_library_store_templates/fulfillment_proxy.php?accountId=ed04c68418b74672a98fdcbbb2d90878",
+	FULFILLMENT_URL: "http://www.dpsapps.com/dps/v2_library_store_templates/fulfillment_proxy.php?accountId=ed04c68418b74672a98fdcbbb2d90878",
 	
 	// Used by AppsView. Returns a list of apps that can be downloaded from the app store.
-	APPS_URL: "http://lighthouse.adobe.com/dps/horizontal_swipe_store/apps.xml",
+	APPS_URL: "http://www.dpsapps.com/dps/horizontal_swipe_store/apps.xml",
 	
 	// The path to where the images are hosted.
-	IMAGE_PATH_URL: "http://lighthouse.adobe.com/dps/horizontal_swipe_store/images/",
+	IMAGE_PATH_URL: "http://www.dpsapps.com/dps/horizontal_swipe_store/images/",
 	
 	// The directory which hosts the previews.
 	PREVIEW_DIR: "previews/",
